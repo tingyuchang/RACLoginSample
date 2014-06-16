@@ -20,6 +20,8 @@
 		C79B6D25194F0AF200C37A6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79B6D0D194F0AF100C37A6D /* UIKit.framework */; };
 		C79B6D2D194F0AF200C37A6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C79B6D2B194F0AF200C37A6D /* InfoPlist.strings */; };
 		C79B6D2F194F0AF200C37A6D /* RACLoginSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C79B6D2E194F0AF200C37A6D /* RACLoginSampleTests.m */; };
+		C7A3DAD7194F370100298B4E /* TTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAD6194F370100298B4E /* TTLoginViewController.m */; };
+		C7A3DADA194F371600298B4E /* TTLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C79B6D2C194F0AF200C37A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C79B6D2E194F0AF200C37A6D /* RACLoginSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACLoginSampleTests.m; sourceTree = "<group>"; };
 		C7A3DAD4194F35C600298B4E /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		C7A3DAD5194F370100298B4E /* TTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginViewController.h; sourceTree = "<group>"; };
+		C7A3DAD6194F370100298B4E /* TTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewController.m; sourceTree = "<group>"; };
+		C7A3DAD8194F371600298B4E /* TTLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginViewModel.h; sourceTree = "<group>"; };
+		C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewModel.m; sourceTree = "<group>"; };
 		F98458892D6C48D0B4CA9682 /* Pods-RACLoginSample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLoginSample.xcconfig"; path = "Pods/Pods-RACLoginSample.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +123,10 @@
 				C7A3DAD4194F35C600298B4E /* Config.h */,
 				C79B6D18194F0AF100C37A6D /* TTAppDelegate.h */,
 				C79B6D19194F0AF100C37A6D /* TTAppDelegate.m */,
+				C7A3DAD5194F370100298B4E /* TTLoginViewController.h */,
+				C7A3DAD6194F370100298B4E /* TTLoginViewController.m */,
+				C7A3DAD8194F371600298B4E /* TTLoginViewModel.h */,
+				C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */,
 				C79B6D1B194F0AF100C37A6D /* Images.xcassets */,
 				C79B6D10194F0AF100C37A6D /* Supporting Files */,
 			);
@@ -283,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A3DAD7194F370100298B4E /* TTLoginViewController.m in Sources */,
 				C79B6D1A194F0AF100C37A6D /* TTAppDelegate.m in Sources */,
+				C7A3DADA194F371600298B4E /* TTLoginViewModel.m in Sources */,
 				C79B6D16194F0AF100C37A6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
