@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "540E1333C32544529B9518EB"
+               BlueprintIdentifier = "3B4DB5D778E04D4B9F949CB6"
                BuildableName = "libPods-RACLoginSample.a"
                BlueprintName = "Pods-RACLoginSample"
                ReferencedContainer = "container:Pods.xcodeproj">

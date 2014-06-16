@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B2DDCF558B141D9BFD87A85"
+               BlueprintIdentifier = "1EED2F0DEF5E4148992C7FFA"
                BuildableName = "libPods-RACLoginSample-Mantle.a"
                BlueprintName = "Pods-RACLoginSample-Mantle"
                ReferencedContainer = "container:Pods.xcodeproj">
