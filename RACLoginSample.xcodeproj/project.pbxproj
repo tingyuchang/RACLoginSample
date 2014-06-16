@@ -22,6 +22,12 @@
 		C79B6D2F194F0AF200C37A6D /* RACLoginSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C79B6D2E194F0AF200C37A6D /* RACLoginSampleTests.m */; };
 		C7A3DAD7194F370100298B4E /* TTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAD6194F370100298B4E /* TTLoginViewController.m */; };
 		C7A3DADA194F371600298B4E /* TTLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */; };
+		C7A3DAE1194F37DD00298B4E /* TTUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAE0194F37DD00298B4E /* TTUserModel.m */; };
+		C7A3DAE4194F38B400298B4E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAE3194F38B400298B4E /* NSString+Extension.m */; };
+		C7A3DAEB194F38BF00298B4E /* URLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAE6194F38BF00298B4E /* URLParser.m */; };
+		C7A3DAEC194F38BF00298B4E /* KOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAE8194F38BF00298B4E /* KOAuth.m */; };
+		C7A3DAED194F38BF00298B4E /* TTAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAEA194F38BF00298B4E /* TTAuth.m */; };
+		C7A3DAF0194F391E00298B4E /* TTRACNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAEF194F391E00298B4E /* TTRACNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,18 @@
 		C7A3DAD6194F370100298B4E /* TTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewController.m; sourceTree = "<group>"; };
 		C7A3DAD8194F371600298B4E /* TTLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginViewModel.h; sourceTree = "<group>"; };
 		C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewModel.m; sourceTree = "<group>"; };
+		C7A3DADF194F37DD00298B4E /* TTUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserModel.h; sourceTree = "<group>"; };
+		C7A3DAE0194F37DD00298B4E /* TTUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserModel.m; sourceTree = "<group>"; };
+		C7A3DAE2194F38B400298B4E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		C7A3DAE3194F38B400298B4E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		C7A3DAE5194F38BF00298B4E /* URLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLParser.h; sourceTree = "<group>"; };
+		C7A3DAE6194F38BF00298B4E /* URLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLParser.m; sourceTree = "<group>"; };
+		C7A3DAE7194F38BF00298B4E /* KOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOAuth.h; sourceTree = "<group>"; };
+		C7A3DAE8194F38BF00298B4E /* KOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOAuth.m; sourceTree = "<group>"; };
+		C7A3DAE9194F38BF00298B4E /* TTAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAuth.h; sourceTree = "<group>"; };
+		C7A3DAEA194F38BF00298B4E /* TTAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAuth.m; sourceTree = "<group>"; };
+		C7A3DAEE194F391E00298B4E /* TTRACNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRACNetworking.h; sourceTree = "<group>"; };
+		C7A3DAEF194F391E00298B4E /* TTRACNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRACNetworking.m; sourceTree = "<group>"; };
 		F98458892D6C48D0B4CA9682 /* Pods-RACLoginSample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLoginSample.xcconfig"; path = "Pods/Pods-RACLoginSample.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,10 +141,10 @@
 				C7A3DAD4194F35C600298B4E /* Config.h */,
 				C79B6D18194F0AF100C37A6D /* TTAppDelegate.h */,
 				C79B6D19194F0AF100C37A6D /* TTAppDelegate.m */,
-				C7A3DAD5194F370100298B4E /* TTLoginViewController.h */,
-				C7A3DAD6194F370100298B4E /* TTLoginViewController.m */,
-				C7A3DAD8194F371600298B4E /* TTLoginViewModel.h */,
-				C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */,
+				C7A3DADE194F378B00298B4E /* Model */,
+				C7A3DADD194F377C00298B4E /* Login */,
+				C7A3DADC194F376B00298B4E /* Utilities */,
+				C7A3DADB194F373D00298B4E /* Networking */,
 				C79B6D1B194F0AF100C37A6D /* Images.xcassets */,
 				C79B6D10194F0AF100C37A6D /* Supporting Files */,
 			);
@@ -160,6 +178,50 @@
 				C79B6D2B194F0AF200C37A6D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7A3DADB194F373D00298B4E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C7A3DAE5194F38BF00298B4E /* URLParser.h */,
+				C7A3DAE6194F38BF00298B4E /* URLParser.m */,
+				C7A3DAE7194F38BF00298B4E /* KOAuth.h */,
+				C7A3DAE8194F38BF00298B4E /* KOAuth.m */,
+				C7A3DAE9194F38BF00298B4E /* TTAuth.h */,
+				C7A3DAEA194F38BF00298B4E /* TTAuth.m */,
+				C7A3DAEE194F391E00298B4E /* TTRACNetworking.h */,
+				C7A3DAEF194F391E00298B4E /* TTRACNetworking.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		C7A3DADC194F376B00298B4E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C7A3DAE2194F38B400298B4E /* NSString+Extension.h */,
+				C7A3DAE3194F38B400298B4E /* NSString+Extension.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		C7A3DADD194F377C00298B4E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C7A3DAD5194F370100298B4E /* TTLoginViewController.h */,
+				C7A3DAD6194F370100298B4E /* TTLoginViewController.m */,
+				C7A3DAD8194F371600298B4E /* TTLoginViewModel.h */,
+				C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C7A3DADE194F378B00298B4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7A3DADF194F37DD00298B4E /* TTUserModel.h */,
+				C7A3DAE0194F37DD00298B4E /* TTUserModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,9 +356,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7A3DAD7194F370100298B4E /* TTLoginViewController.m in Sources */,
+				C7A3DAE4194F38B400298B4E /* NSString+Extension.m in Sources */,
+				C7A3DAF0194F391E00298B4E /* TTRACNetworking.m in Sources */,
+				C7A3DAEB194F38BF00298B4E /* URLParser.m in Sources */,
 				C79B6D1A194F0AF100C37A6D /* TTAppDelegate.m in Sources */,
 				C7A3DADA194F371600298B4E /* TTLoginViewModel.m in Sources */,
+				C7A3DAED194F38BF00298B4E /* TTAuth.m in Sources */,
 				C79B6D16194F0AF100C37A6D /* main.m in Sources */,
+				C7A3DAE1194F37DD00298B4E /* TTUserModel.m in Sources */,
+				C7A3DAEC194F38BF00298B4E /* KOAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
