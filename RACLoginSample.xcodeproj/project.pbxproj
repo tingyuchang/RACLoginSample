@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A79ED2A56544CD39AA2BC91 /* libPods-RACLoginSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10E68BD62B548CF9452BED2 /* libPods-RACLoginSample.a */; };
 		C79B6D0A194F0AF100C37A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79B6D09194F0AF100C37A6D /* Foundation.framework */; };
 		C79B6D0C194F0AF100C37A6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79B6D0B194F0AF100C37A6D /* CoreGraphics.framework */; };
 		C79B6D0E194F0AF100C37A6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79B6D0D194F0AF100C37A6D /* UIKit.framework */; };
@@ -19,6 +20,14 @@
 		C79B6D25194F0AF200C37A6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79B6D0D194F0AF100C37A6D /* UIKit.framework */; };
 		C79B6D2D194F0AF200C37A6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C79B6D2B194F0AF200C37A6D /* InfoPlist.strings */; };
 		C79B6D2F194F0AF200C37A6D /* RACLoginSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C79B6D2E194F0AF200C37A6D /* RACLoginSampleTests.m */; };
+		C7A3DAD7194F370100298B4E /* TTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAD6194F370100298B4E /* TTLoginViewController.m */; };
+		C7A3DADA194F371600298B4E /* TTLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */; };
+		C7A3DAE1194F37DD00298B4E /* TTUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAE0194F37DD00298B4E /* TTUserModel.m */; };
+		C7A3DAE4194F38B400298B4E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAE3194F38B400298B4E /* NSString+Extension.m */; };
+		C7A3DAEB194F38BF00298B4E /* URLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAE6194F38BF00298B4E /* URLParser.m */; };
+		C7A3DAEC194F38BF00298B4E /* KOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAE8194F38BF00298B4E /* KOAuth.m */; };
+		C7A3DAED194F38BF00298B4E /* TTAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAEA194F38BF00298B4E /* TTAuth.m */; };
+		C7A3DAF0194F391E00298B4E /* TTRACNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3DAEF194F391E00298B4E /* TTRACNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A10E68BD62B548CF9452BED2 /* libPods-RACLoginSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACLoginSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79B6D06194F0AF100C37A6D /* RACLoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACLoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79B6D09194F0AF100C37A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C79B6D0B194F0AF100C37A6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +58,24 @@
 		C79B6D2A194F0AF200C37A6D /* RACLoginSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RACLoginSampleTests-Info.plist"; sourceTree = "<group>"; };
 		C79B6D2C194F0AF200C37A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C79B6D2E194F0AF200C37A6D /* RACLoginSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACLoginSampleTests.m; sourceTree = "<group>"; };
+		C7A3DAD4194F35C600298B4E /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		C7A3DAD5194F370100298B4E /* TTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginViewController.h; sourceTree = "<group>"; };
+		C7A3DAD6194F370100298B4E /* TTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewController.m; sourceTree = "<group>"; };
+		C7A3DAD8194F371600298B4E /* TTLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginViewModel.h; sourceTree = "<group>"; };
+		C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewModel.m; sourceTree = "<group>"; };
+		C7A3DADF194F37DD00298B4E /* TTUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserModel.h; sourceTree = "<group>"; };
+		C7A3DAE0194F37DD00298B4E /* TTUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserModel.m; sourceTree = "<group>"; };
+		C7A3DAE2194F38B400298B4E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		C7A3DAE3194F38B400298B4E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		C7A3DAE5194F38BF00298B4E /* URLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLParser.h; sourceTree = "<group>"; };
+		C7A3DAE6194F38BF00298B4E /* URLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLParser.m; sourceTree = "<group>"; };
+		C7A3DAE7194F38BF00298B4E /* KOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOAuth.h; sourceTree = "<group>"; };
+		C7A3DAE8194F38BF00298B4E /* KOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOAuth.m; sourceTree = "<group>"; };
+		C7A3DAE9194F38BF00298B4E /* TTAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAuth.h; sourceTree = "<group>"; };
+		C7A3DAEA194F38BF00298B4E /* TTAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAuth.m; sourceTree = "<group>"; };
+		C7A3DAEE194F391E00298B4E /* TTRACNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRACNetworking.h; sourceTree = "<group>"; };
+		C7A3DAEF194F391E00298B4E /* TTRACNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRACNetworking.m; sourceTree = "<group>"; };
+		F98458892D6C48D0B4CA9682 /* Pods-RACLoginSample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLoginSample.xcconfig"; path = "Pods/Pods-RACLoginSample.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 				C79B6D0C194F0AF100C37A6D /* CoreGraphics.framework in Frameworks */,
 				C79B6D0E194F0AF100C37A6D /* UIKit.framework in Frameworks */,
 				C79B6D0A194F0AF100C37A6D /* Foundation.framework in Frameworks */,
+				4A79ED2A56544CD39AA2BC91 /* libPods-RACLoginSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,7 @@
 				C79B6D28194F0AF200C37A6D /* RACLoginSampleTests */,
 				C79B6D08194F0AF100C37A6D /* Frameworks */,
 				C79B6D07194F0AF100C37A6D /* Products */,
+				F98458892D6C48D0B4CA9682 /* Pods-RACLoginSample.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +130,7 @@
 				C79B6D0B194F0AF100C37A6D /* CoreGraphics.framework */,
 				C79B6D0D194F0AF100C37A6D /* UIKit.framework */,
 				C79B6D22194F0AF200C37A6D /* XCTest.framework */,
+				A10E68BD62B548CF9452BED2 /* libPods-RACLoginSample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +138,13 @@
 		C79B6D0F194F0AF100C37A6D /* RACLoginSample */ = {
 			isa = PBXGroup;
 			children = (
+				C7A3DAD4194F35C600298B4E /* Config.h */,
 				C79B6D18194F0AF100C37A6D /* TTAppDelegate.h */,
 				C79B6D19194F0AF100C37A6D /* TTAppDelegate.m */,
+				C7A3DADE194F378B00298B4E /* Model */,
+				C7A3DADD194F377C00298B4E /* Login */,
+				C7A3DADC194F376B00298B4E /* Utilities */,
+				C7A3DADB194F373D00298B4E /* Networking */,
 				C79B6D1B194F0AF100C37A6D /* Images.xcassets */,
 				C79B6D10194F0AF100C37A6D /* Supporting Files */,
 			);
@@ -144,6 +180,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C7A3DADB194F373D00298B4E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C7A3DAE5194F38BF00298B4E /* URLParser.h */,
+				C7A3DAE6194F38BF00298B4E /* URLParser.m */,
+				C7A3DAE7194F38BF00298B4E /* KOAuth.h */,
+				C7A3DAE8194F38BF00298B4E /* KOAuth.m */,
+				C7A3DAE9194F38BF00298B4E /* TTAuth.h */,
+				C7A3DAEA194F38BF00298B4E /* TTAuth.m */,
+				C7A3DAEE194F391E00298B4E /* TTRACNetworking.h */,
+				C7A3DAEF194F391E00298B4E /* TTRACNetworking.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		C7A3DADC194F376B00298B4E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C7A3DAE2194F38B400298B4E /* NSString+Extension.h */,
+				C7A3DAE3194F38B400298B4E /* NSString+Extension.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		C7A3DADD194F377C00298B4E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C7A3DAD5194F370100298B4E /* TTLoginViewController.h */,
+				C7A3DAD6194F370100298B4E /* TTLoginViewController.m */,
+				C7A3DAD8194F371600298B4E /* TTLoginViewModel.h */,
+				C7A3DAD9194F371600298B4E /* TTLoginViewModel.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C7A3DADE194F378B00298B4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7A3DADF194F37DD00298B4E /* TTUserModel.h */,
+				C7A3DAE0194F37DD00298B4E /* TTUserModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C79B6D32194F0AF200C37A6D /* Build configuration list for PBXNativeTarget "RACLoginSample" */;
 			buildPhases = (
+				B0F231E556514D079C9D46BB /* Check Pods Manifest.lock */,
 				C79B6D02194F0AF100C37A6D /* Sources */,
 				C79B6D03194F0AF100C37A6D /* Frameworks */,
 				C79B6D04194F0AF100C37A6D /* Resources */,
+				25878EEC5AA04FBAA0FE112C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,13 +317,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25878EEC5AA04FBAA0FE112C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-RACLoginSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F231E556514D079C9D46BB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C79B6D02194F0AF100C37A6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A3DAD7194F370100298B4E /* TTLoginViewController.m in Sources */,
+				C7A3DAE4194F38B400298B4E /* NSString+Extension.m in Sources */,
+				C7A3DAF0194F391E00298B4E /* TTRACNetworking.m in Sources */,
+				C7A3DAEB194F38BF00298B4E /* URLParser.m in Sources */,
 				C79B6D1A194F0AF100C37A6D /* TTAppDelegate.m in Sources */,
+				C7A3DADA194F371600298B4E /* TTLoginViewModel.m in Sources */,
+				C7A3DAED194F38BF00298B4E /* TTAuth.m in Sources */,
 				C79B6D16194F0AF100C37A6D /* main.m in Sources */,
+				C7A3DAE1194F37DD00298B4E /* TTUserModel.m in Sources */,
+				C7A3DAEC194F38BF00298B4E /* KOAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +478,7 @@
 		};
 		C79B6D33194F0AF200C37A6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98458892D6C48D0B4CA9682 /* Pods-RACLoginSample.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -368,6 +492,7 @@
 		};
 		C79B6D34194F0AF200C37A6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98458892D6C48D0B4CA9682 /* Pods-RACLoginSample.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +563,7 @@
 				C79B6D34194F0AF200C37A6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C79B6D35194F0AF200C37A6D /* Build configuration list for PBXNativeTarget "RACLoginSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +572,7 @@
 				C79B6D37194F0AF200C37A6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-RACLoginSample-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RACLoginSample-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RACLoginSample-Mantle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RACLoginSample-ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RACLoginSample.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1EED2F0DEF5E4148992C7FFA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2C3958C6B3F94F7CB933D8E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B4DB5D778E04D4B9F949CB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4B10A3EB7948478BB80BEC75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDD08B6416D54CCB9E4E3F3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
